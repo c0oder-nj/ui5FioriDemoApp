@@ -1,0 +1,16 @@
+<mvc:View controllerName="demo_fioriApp.controller.HelloPanel" xmlns="sap.m"  xmlns:mvc="sap.ui.core.mvc">
+	<Panel headerText="{i18n>panelHeaderText}">
+						<!--<Text text="Hello UI5" />-->
+						<Button  text="Click Me" press="onPress"></Button>
+						<Input 
+							value="{/user/name}"
+							description="Hello {/user/name}"
+							valueLiveUpdate="true" 
+							width="60%"
+							/>
+	</Panel>
+	
+	<Panel headerText="Dialog And Fragements">
+		<Button id="dialog_fragement_btn" text="Press for Dialog" press="onPressDialog" icon="sap-icon://world" class="sapUiSmallMarginEnd"></Button>
+	</Panel>
+</mvc:View>

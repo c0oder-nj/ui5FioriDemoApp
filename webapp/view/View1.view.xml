@@ -1,0 +1,27 @@
+<mvc:View controllerName="demo_fioriApp.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<Shell>
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<headerContent>
+					<!--<Button icon="sap-icon://hello-world" press="onPressDialog" tooltip="null"/>-->
+				</headerContent>
+				<content>
+					<mvc:XMLView viewName="demo_fioriApp.view.HelloPanel"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+	</Shell>
+	
+	<!--<Text text="Hello UI5" />-->
+	<!--<Button  text="Click Me" press="onPress"></Button>-->
+	<!--<Input -->
+	<!--	value="{/user/name}"-->
+	<!--	description="Hello {/user/name}"-->
+	<!--	valueLiveUpdate="true" -->
+	<!--	width="60%"-->
+	<!--	/>-->
+		
+</mvc:View>

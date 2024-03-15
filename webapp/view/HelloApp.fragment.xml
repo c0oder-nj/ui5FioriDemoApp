@@ -1,0 +1,12 @@
+<!--In order to create fragment we use this kind of syntax-->
+
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Dialog id="HelloApp_dialog" title="Hello {/user/name}">
+		<content>
+			<core:Icon src="sap-icon://phone" size="8rem" alt="Hello Icon" class="sapUiMediumMargin"></core:Icon>
+		</content>
+		<beginButton>
+			<Button id="close_btn" text="ok"  press="onClose"></Button>
+		</beginButton>
+	</Dialog>
+</core:FragmentDefinition>
